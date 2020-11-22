@@ -30,14 +30,14 @@ public class testExercicios {
 	
 	@Test
 	public void somaPositivosUmACem() {
-		List<Integer> Positivos = new ArrayList<Integer>(); 
-		
+		 
+		int somatoria = 0;
 		for (int i = 1; i <= 100; i++) {
-			if (i%2==0) {
-				Positivos.add(i);
+			if (i>0) {
+				somatoria+=i;
 			}
 		}
-		System.out.println(Positivos);;
+		System.out.println(somatoria);;
 	}
 
 }
